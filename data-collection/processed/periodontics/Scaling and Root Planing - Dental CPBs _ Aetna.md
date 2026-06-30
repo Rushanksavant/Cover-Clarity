@@ -13,13 +13,13 @@ We consider scaling and root planing to be a procedure that involves instrumenta
 
 Scaling and root planing typically takes a substantial amount of time per quadrant and routinely requires local anesthetic. The length and nature of the procedure and use of local anesthetic normally necessitates multiple appointments to treat the whole mouth, with the usual maximum of two quadrants being performed per appointment.
 
-## Background 
+## Background
 
 According o the American Academy of Periodontology treatment guidelines, periodontal health should be achieved in the least invasive and most cost-effective manner. This is often accomplished through non-surgical periodontal treatment. Scaling and root planing is the primary non-surgical treatment modality.
 
 After scaling and root planing, many patients do not require any further active periodontal treatment. However, osseous surgery may be indicated to restore periodontal health when scaling and root planing is not effective.
 
-Periodontal scaling and root planing (CDT code D4341/4342) is distinctly different from a dental prophylaxis (CDT code D1110) and scaling in the presence of generalized moderate or severe gingival inflammation (CDT code D4346). Prophylaxis is a preventive procedure and is performed on patients with a generally healthy periodontium, or on patients with localized gingivitis. Scaling in the presence of generalized moderate or severe gingival inflammation is indicated for patients who have generalized moderate to severe gingival inflammation, with or without pseudo-pockets but exhibiting no bone loss or loss of attachment. The key to scaling and root planing is the instrumentation and removal of deposits from the root surfaces of the tooth *.*
+Periodontal scaling and root planing (CDT code D4341/4342) is distinctly different from a dental prophylaxis (CDT code D1110) and scaling in the presence of generalized moderate or severe gingival inflammation (CDT code D4346). Prophylaxis is a preventive procedure and is performed on patients with a generally healthy periodontium, or on patients with localized gingivitis. Scaling in the presence of generalized moderate or severe gingival inflammation is indicated for patients who have generalized moderate to severe gingival inflammation, with or without pseudo-pockets but exhibiting no bone loss or loss of attachment. The key to scaling and root planing is the instrumentation and removal of deposits from the root surfaces of the tooth _._
 
 Required documentation to support the delivery of scaling and root planing must consist of the following:
 

@@ -4,6 +4,28 @@ from pathlib import Path
 PROCESSED_BASE_DIR = Path("./data-collection/processed")
 BRONZE_PPO_PATH = PROCESSED_BASE_DIR / "bronze-ppo.md"
 
+
+
+def is_mobile_duplicate_table(table_lines: list) -> bool:
+    """
+    Checks if a table block is a mobile-responsive duplicate.
+    Responsive mobile tables repeat the column headers ('Documentation required', etc.)
+    inside the first cell of alternating rows.
+    """
+    for idx, line in enumerate(table_lines):
+        # Split the markdown row into cells
+        cells = [c.strip().replace("*", "") for c in line.split("|")]
+        if len(cells) > 1:
+            first_cell = cells[1]
+            # If a row's first column contains a header string as its value, it's a mobile layout
+            if first_cell in ["Documentation required", "Medical necessity criteria", "Pathologic criteria"]:
+                # Ensure it's treated as a row value, not the genuine top header line
+                if first_cell == "Documentation required" or idx > 1:
+                    return True
+    return False
+
+
+
 def clean_cpb_content(content: str) -> str:
     """
     Removes standard Aetna boilerplates, academic references, 
@@ -24,7 +46,35 @@ def clean_cpb_content(content: str) -> str:
         if marker in content:
             content = content.split(marker)[0]
         
-    return content.strip()
+    # 3. Clean up ghost headers leftover from removed web elements (e.g., '### \n\n')
+    content = re.sub(r"### \s*\n", "", content)
+
+    # 4. Filter out duplicate responsive table layouts line-by-line
+    lines = content.splitlines()
+    sanitized_lines = []
+    current_table_lines = []
+    in_table = False
+
+    for line in lines:
+        if line.strip().startswith("|"):
+            in_table = True
+            current_table_lines.append(line)
+        else:
+            if in_table:
+                # Evaluate the collected table block before writing it back
+                if not is_mobile_duplicate_table(current_table_lines):
+                    sanitized_lines.extend(current_table_lines)
+                current_table_lines = []
+                in_table = False
+            sanitized_lines.append(line)
+
+    # Catch any trailing table block at EOF
+    if in_table and not is_mobile_duplicate_table(current_table_lines):
+        sanitized_lines.extend(current_table_lines)
+
+    return "\n".join(sanitized_lines).strip()
+
+
 
 def enrich_bronze_ppo():
     """Injects explicit PNS and UCR fee schedule logic into the benefit profile."""
@@ -57,6 +107,8 @@ def enrich_bronze_ppo():
             f.write(network_override_text)
         print("💎 Enriched bronze-ppo.md with explicit PNS & UCR baseline parameters.")
 
+
+
 def run_workspace_cleanup():
     if not PROCESSED_BASE_DIR.exists():
         print(f"❌ Processed directory '{PROCESSED_BASE_DIR}' does not exist.")
@@ -83,6 +135,8 @@ def run_workspace_cleanup():
     
     # Enrich the insurance benefit sheet
     enrich_bronze_ppo()
+
+
 
 if __name__ == "__main__":
     run_workspace_cleanup()

@@ -22,13 +22,6 @@ The following clinical conditions meet medical necessity and/or pathologic crite
 | Therapy management for certain medical conditions (for example, pre-radiation, trauma)                                                      | Current dated panoramic / periapical radiographs  Narrative of underlying medical condition and relationship to proposed treatment from dentist rendering service               |
 | Requisite for the completion of other necessary medical or dental treatments (for example, reconstruction, pre-prosthodontic, orthognathic) | Current dated panoramic / periapical radiographs  Narrative of other necessary medical / dental treatment and relationship to proposed treatment from dentist rendering service |
 
-| **Medical necessity criteria**   | Therapy management for certain medical conditions (for example, pre-radiation, trauma)                                                                                          |
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Documentation required**       | Current dated panoramic / periapical radiographs  Narrative of underlying medical condition and relationship to proposed treatment from dentist rendering service               |
-| **Medical necessity criteria**   | Requisite for the completion of other necessary medical or dental treatments (for example, reconstruction, pre-prosthodontic, orthognathic)                                     |
-| **Documentation required**       | Current dated panoramic / periapical radiographs  Narrative of other necessary medical / dental treatment and relationship to proposed treatment from dentist rendering service |
-
-### 
 
 ### Pathologic criteria
 
@@ -43,23 +36,6 @@ The following clinical conditions meet medical necessity and/or pathologic crite
 | Insufficient arch length - as prescribed by orthodontist before or during orthodontic therapy                                                                                                                         | Current dated panoramic radiograph of the area  Narrative from the orthodontist verifying arch length discrepancy                                                               |
 | An impacted tooth positioned such that it will probably not erupt by the middle of the third decade                                                                                                                   | Current dated panoramic radiograph of the area                                                                                                                                  |
 
-| Pathologic criteria    | Recurrent pericoronitis and chronic infection unsuccessfully treated with irrigation and antibiotic therapy                                                                                                           |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Documentation required | Current available radiograph of the area  Letter of rationale to include narrative of treatment of previous infectious process                                                                                        |
-| Pathologic criteria    | Resorption of adjacent teeth                                                                                                                                                                                          |
-| Documentation required | Current dated panoramic / periapical radiographs  Narrative of other necessary medical / dental treatment and relationship to proposed treatment from dentist rendering service                                       |
-| Pathologic criteria    | Unmanageable periodontal disease related to impaction (for example, probable defect to the follicular space on the distal aspect of second molar)                                                                     |
-| Documentation required | Current dated radiograph of the area  Current dated periodontal charting, six points per tooth                                                                                                                        |
-| Pathologic criteria    | Associated pathologic odontogenic cysts and tumors that are developing outside the confines of the tooth and considered to be located in an anatomical area independent of the tooth that requires additional surgery |
-| Documentation required | Current dated radiograph of the area                                                                                                                                                                                  |
-| Pathologic criteria    | Tooth in the line of fracture                                                                                                                                                                                         |
-| Documentation required | Dated radiograph of trauma (preferably panorex)                                                                                                                                                                       |
-| Pathologic criteria    | Preventive or prophylactic tooth removal, when indicated, for patients with medical or surgical conditions or treatments (for example, organ transplants, alloplastic implants, radiation therapy)                    |
-| Documentation required | Dated radiograph  Letter of rationale from the Oral Maxillo-Facial Surgeon (OMFS)  Letter of necessity from the treating physician                                                                                    |
-| Pathologic criteria    | Insufficient arch length - as prescribed by orthodontist before or during orthodontic therapy                                                                                                                         |
-| Documentation required | Current dated panoramic radiograph of the area  Narrative from the orthodontist verifying arch length discrepancy                                                                                                     |
-| Pathologic criteria    | An impacted tooth positioned such that it will probably not erupt by the middle of the third decade                                                                                                                   |
-| Documentation required | Current dated panoramic radiograph of the area                                                                                                                                                                        |
 
 ## 
 

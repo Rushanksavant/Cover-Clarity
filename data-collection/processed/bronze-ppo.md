@@ -1,6 +1,3 @@
-
-
-
 Bronze
 Dental Benefits Summary
 Passive PPO
@@ -32,12 +29,10 @@ Root canal therapy
 Anterior teeth / Bicuspid teeth 80%
 Root canal therapy, molar teeth 80%
 Scaling and root planing (a) 80%
-Gingivectomy (a)* 80%
+Gingivectomy (a)\* 80%
 Amalgam (silver) fillings 80%
 Composite fillings (anterior teeth only) 80%
 Page 1
-
-
 
 Bronze
 Dental Benefits Summary
@@ -45,10 +40,10 @@ Stainless steel crowns 80%
 Incision and drainage of abscess* 80%
 Uncomplicated extractions 80%
 Surgical removal of erupted tooth* 80%
-Surgical removal of impacted tooth (soft tissue)* 80%
-Osseous surgery (a)* 80%
-Surgical removal of impacted tooth (partial bony/ full bony)* 80%
-General anesthesia/intravenous sedation* 80%
+Surgical removal of impacted tooth (soft tissue)_ 80%
+Osseous surgery (a)_ 80%
+Surgical removal of impacted tooth (partial bony/ full bony)_ 80%
+General anesthesia/intravenous sedation_ 80%
 Crown Lengthening 80%
 Major
 Inlays 0%
@@ -58,7 +53,7 @@ Full & partial dentures 0%
 Pontics 0%
 Denture repairs 0%
 Crown Build-Ups 0%
-*Certain services may be covered under the Medical Plan. Contact Member Services for more details.
+\*Certain services may be covered under the Medical Plan. Contact Member Services for more details.
 (a) Frequency and/or age limitations may apply to these services. These limits are described in the booklet/certificate.
 Other Important Information
 This Aetna Dental® Preferred Provider Organization (PPO) benefits summary is provided by Aetna Life Insurance
@@ -73,8 +68,6 @@ If you need emergency dental care for the palliative treatment (pain relieving, 
 covered 24 hours a day, 7 days a week.
 Page 2
 
-
-
 Bronze
 Dental Benefits Summary
 When emergency services are provided by a participating PPO dentist, your co-payment/coinsurance amount will be based
@@ -82,41 +75,39 @@ on a negotiated fee schedule. When emergency services are provided by a non-part
 responsible for the difference between the plan payment and the dentist's usual charge. Refer to your plan documents for
 details. Subject to state requirements. Out-of-area emergency dental care may be reviewed by our dental consultants to
 verify appropriateness of treatment.
-Partial List of Exclusions and Limitations* - Coverage is not provided for the following:
+Partial List of Exclusions and Limitations\* - Coverage is not provided for the following:
+
 1. Services or supplies that are covered in whole or in part:
-(a) under any other part of this Dental Care Plan; or
-(b) under any other plan of group benefits provided by or through your employer.
+   (a) under any other part of this Dental Care Plan; or
+   (b) under any other plan of group benefits provided by or through your employer.
 2. Services and supplies to diagnose or treat a disease or injury that is not:
-(a) a non-occupational disease; or
-(b) a non-occupational injury.
+   (a) a non-occupational disease; or
+   (b) a non-occupational injury.
 3. Services not listed in the Dental Care Schedule that applies, unless otherwise specified in the Booklet-Certificate.
 4. Those for replacement of a lost, missing or stolen appliance, and those for replacement of appliances that have been
-damaged due to abuse, misuse or neglect.
+   damaged due to abuse, misuse or neglect.
 5. Those for plastic, reconstructive or cosmetic surgery, or other dental services or supplies, that are primarily intended to
-improve, alter or enhance appearance. This applies whether or not the services and supplies are for psychological or
-emotional reasons. Facings on molar crowns and pontics will always be considered cosmetic.
+   improve, alter or enhance appearance. This applies whether or not the services and supplies are for psychological or
+   emotional reasons. Facings on molar crowns and pontics will always be considered cosmetic.
 6. Those for or in connection with services, procedures, drugs or other supplies that are determined by Aetna to be
-experimental or still under clinical investigation by health professionals.
+   experimental or still under clinical investigation by health professionals.
 7. Those for dentures, crowns, inlays, onlays, bridgework, or other appliances or services used for the purpose of
-splinting, to alter vertical dimension, to restore occlusion, or to correct attrition, abrasion or erosion.
+   splinting, to alter vertical dimension, to restore occlusion, or to correct attrition, abrasion or erosion.
 8. Services that Aetna defines as not necessary for the diagnosis, care or treatment of the condition involved. This applies
-even if they are prescribed, recommended or approved by the attending physician or dentist.
+   even if they are prescribed, recommended or approved by the attending physician or dentist.
 9. Those for services intended for treatment of any jaw joint disorder, unless otherwise specified in the Booklet-Certificate.
 10. Those for space maintainers, except when needed to preserve space resulting from the premature loss of deciduous
-teeth.
+    teeth.
 11. Those for orthodontic treatment, unless otherwise specified in the Booklet-Certificate.
 12. Those for general anesthesia and intravenous sedation, unless specifically covered. For plans that cover these
-services, they will not be eligible for benefits unless done in conjunction with another necessary covered service.
+    services, they will not be eligible for benefits unless done in conjunction with another necessary covered service.
 13. Those for treatment by other than a dentist, except that scaling or cleaning of teeth and topical application of fluoride
-may be done by a licensed dental hygienist. In this case, the treatment must be given under the supervision and guidance
-of a dentist.
-Page 3
-
-
+    may be done by a licensed dental hygienist. In this case, the treatment must be given under the supervision and guidance
+    of a dentist.
+    Page 3
 
 Bronze
-Dental Benefits Summary
-14. Those in connection with a service given to a person age 5 or older if that person becomes a covered person other than
+Dental Benefits Summary 14. Those in connection with a service given to a person age 5 or older if that person becomes a covered person other than
 (Does not apply to Maine contract state and Maine residents):
 (a) during the first 31 days the person is eligible for this coverage, or
 (b) as prescribed for any period of open enrollment agreed to by the employer and Aetna. This does not apply to
@@ -124,21 +115,15 @@ charges incurred:
 (i) after the end of the 12-month period starting on the date the person became a covered person; or
 (ii) as a result of accidental injuries sustained while the person was a covered person; or
 (iii) for a primary care service in the Dental Care Schedule that applies as shown under the headings
-Visits and Exams, and X-rays and Pathology.
-15. Services given by a nonparticipating dental provider to the extent that the charges exceed the amount payable for the
-services shown in the Dental Care Schedule that applies.
-16. Those for a crown, cast or processed restoration unless:
+Visits and Exams, and X-rays and Pathology. 15. Services given by a nonparticipating dental provider to the extent that the charges exceed the amount payable for the
+services shown in the Dental Care Schedule that applies. 16. Those for a crown, cast or processed restoration unless:
 (a) it is treatment for decay or traumatic injury, and teeth cannot be restored with a filling material; or
-(b) the tooth is an abutment to a covered partial denture or fixed bridge.
-17. Those for pontics, crowns, cast or processed restorations made with high-noble metals, unless otherwise specified in
-the Booklet-Certificate.
-18. Those for surgical removal of impacted wisdom teeth only for orthodontic reasons, unless otherwise specified in the
-Booklet-Certificate.
-19. Services needed solely in connection with non-covered services.
-20. Services done where there is no evidence of pathology, dysfunction or disease other than covered preventive services.
+(b) the tooth is an abutment to a covered partial denture or fixed bridge. 17. Those for pontics, crowns, cast or processed restorations made with high-noble metals, unless otherwise specified in
+the Booklet-Certificate. 18. Those for surgical removal of impacted wisdom teeth only for orthodontic reasons, unless otherwise specified in the
+Booklet-Certificate. 19. Services needed solely in connection with non-covered services. 20. Services done where there is no evidence of pathology, dysfunction or disease other than covered preventive services.
 Any exclusion above will not apply to the extent that coverage of the charges is required under any law that applies to the
 coverage.
-*This is a partial list of exclusions and limitations, others may apply. Please check your plan booklet for details.
+\*This is a partial list of exclusions and limitations, others may apply. Please check your plan booklet for details.
 Finding Participating Providers
 Consult Aetna Dentals online provider search for the most current provider listings. Participating providers are
 independent contractors in private practice and are neither employees nor agents of Aetna Dental or its affiliates. The
@@ -149,8 +134,6 @@ Specific products may not be available on both a self-funded and insured basis. 
 subject to change without notice. In case of a conflict between your plan documents and this information, the plan
 documents will govern.
 Page 4
-
-
 
 Bronze
 Dental Benefits Summary
@@ -190,3 +173,16 @@ Services, 200 Independence Avenue SW., Room 509F, HHH Building, Washington, DC 2
 Aetna is the brand name used for products and services provided by one or more of the Aetna group of subsidiary
 companies, including Aetna Life Insurance Company, Coventry Health Care plans and their affiliates (Aetna).
 Page 5
+
+---
+## Global Network Rules Override
+
+### 1. In-Network Application (PNS)
+* All diagnostic, basic, and major service tiers listed in this document apply **strictly** to In-Network participating providers matching the PPOII and ExtendSM networks.
+
+### 2. Out-of-Network (OON) Coinsurance Penalty
+* Any service rendered by a non-participating provider is subject to a **30% penalty reduction** relative to the plan's baseline coinsurance coverage.
+
+### 3. UCR Fee Schedule Baseline
+* Out-of-Network plan payments are calculated under the Usual, Customary, and Reasonable (UCR) framework, pegged specifically to the **70th percentile of prevailing charges** for the geographic area. The patient maintains full liability for balance billing limits above this threshold.
+        

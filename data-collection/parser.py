@@ -5,7 +5,7 @@ from docling.document_converter import DocumentConverter
 
 # Operational Directories relative to root/
 RAW_BASE_DIR = Path("./data-collection/raw")
-PROCESSED_BASE_DIR = Path("./data-collection/processed")
+PROCESSED_BASE_DIR = Path("./data-collection/processed_new")
 
 def parse_pdf_with_plumber(source_path: Path, output_path: Path):
     """Fallback text extraction for PDFs to bypass local OCR/Torch driver conflicts."""

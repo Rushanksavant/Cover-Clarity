@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 
-PROCESSED_BASE_DIR = Path("./data-collection/processed")
+PROCESSED_BASE_DIR = Path("./data-collection/processed_new")
 BRONZE_PPO_PATH = PROCESSED_BASE_DIR / "bronze-ppo.md"
 
 

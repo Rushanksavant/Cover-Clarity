@@ -7,7 +7,7 @@ async def main():
     await build(dry_run="--full" not in sys.argv)
     
     # Creates a semantic index that acts as an entry-point for queries
-    await enrich()
+    # await enrich()
 
 if __name__ == "__main__":
     asyncio.run(main())

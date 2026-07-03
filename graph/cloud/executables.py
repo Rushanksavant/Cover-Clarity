@@ -12,7 +12,7 @@ load_dotenv()
 
 # ROOT = os.getenv("./.cognee_data")
 PROCESSED = Path("data-collection/processed")
-DATASET   = "dental_insurance_kb"
+DATASET   = "dental_insurance_kb_1"
 
 
 # class OverlappingChunker(TextChunkerWithOverlap):
@@ -28,7 +28,7 @@ async def build(dry_run=True):
     await cognee.serve()
 
     # Access clean .md docs
-    dirs = ["diagnostic"] if dry_run else ["diagnostic", "oral_surgery", "periodontics"]
+    dirs = ["diagnostic", "oral_surgery", "periodontics"] if dry_run else ["diagnostic", "oral_surgery", "periodontics", "adjunctive_general_services", "endodontics", "implant_services", "medical_in_nature", "orthodontics", "preventive", "restorative"]
     files = [f for d in dirs for f in (PROCESSED / d).glob("*.md")]
     if (PROCESSED / "bronze-ppo.md").exists():
         files.append(PROCESSED / "bronze-ppo.md")

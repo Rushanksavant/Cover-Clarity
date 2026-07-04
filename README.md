@@ -2,8 +2,6 @@
 
 <img src="app/assets/logo.png" width="244" alt="Cover-Clarity logo" />
 
-# Cover-Clarity
-
 **Your dental policy, now has memory.**
 
 _GraphRAG-powered insurance claim assistant — built on Cognee Cloud_

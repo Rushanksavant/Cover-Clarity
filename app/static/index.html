@@ -174,86 +174,88 @@
             />
           </div>
 
-          <div class="hero-eyebrow">
-            Aetna Bronze Plan · AI Claim Verification
-          </div>
-          <h1 class="hero-title">
-            Know if your Aetna dental<br />claim will be covered
-          </h1>
+          <div class="hero-eyebrow">Powered by Cognee Cloud</div>
+          <h1 class="hero-title">Your dental policy,<br />now has memory</h1>
           <p class="hero-sub">
-            Claim-Clarity is powered by Aetna's official Dental Clinical Policy
-            Bulletins (DCPBs). Ask about any procedure covered under the
+            Aetna's dental policy documents are ingested into a
+            <strong style="color: var(--accent)">Cognee knowledge graph</strong
+            >. Ask about any procedure — Claim-Clarity traces the graph,
+            remembers your session, and gives you a precise answer backed by the
             <a
               href="https://www.aetna.com/content/dam/aetna/pdfs/aon/bronze-ppo.pdf"
               target="_blank"
               rel="noopener"
               style="color: var(--accent)"
               >Aetna Bronze Benefit Plan</a
-            >
-            and get an instant, graph-powered coverage verdict.
+            >.
           </p>
 
           <div class="claim-chips">
-            <span class="chip">🦷 Root canal coverage</span>
-            <span class="chip">👑 Crown eligibility</span>
-            <span class="chip">📋 Annual maximum check</span>
-            <span class="chip">⏳ Waiting period status</span>
+            <span class="chip">🕸️ Cognee Cloud GraphRAG</span>
+            <span class="chip">🧠 Session memory via cognee.recall()</span>
+            <span class="chip">🔍 Policy node trace on every answer</span>
+            <span class="chip">📄 Aetna Bronze Plan</span>
           </div>
 
           <div class="aetna-info-strip">
             <div class="aetna-info-inner">
               <div class="aetna-info-item">
-                <span class="aetna-info-icon">🏥</span>
+                <span class="aetna-info-icon">📥</span>
                 <div>
-                  <div class="aetna-info-label">Powered by</div>
+                  <div class="aetna-info-label">remember()</div>
                   <div class="aetna-info-value">
-                    Aetna Dental Clinical Policy Bulletins (DCPBs)
+                    Aetna policy docs ingested into Cognee's hybrid graph-vector
+                    store
                   </div>
                 </div>
               </div>
               <div class="aetna-info-divider"></div>
               <div class="aetna-info-item">
-                <span class="aetna-info-icon">📋</span>
+                <span class="aetna-info-icon">🔍</span>
                 <div>
-                  <div class="aetna-info-label">Current Plan</div>
+                  <div class="aetna-info-label">recall()</div>
                   <div class="aetna-info-value">
-                    <a
-                      href="https://www.aetna.com/content/dam/aetna/pdfs/aon/bronze-ppo.pdf"
-                      target="_blank"
-                      rel="noopener"
-                      class="aetna-link"
-                      >Bronze Benefit Plan →</a
-                    >
+                    Your question traverses the policy graph — precise,
+                    node-traced answers
                   </div>
                 </div>
               </div>
               <div class="aetna-info-divider"></div>
               <div class="aetna-info-item">
-                <span class="aetna-info-icon">👥</span>
+                <span class="aetna-info-icon">💬</span>
                 <div>
-                  <div class="aetna-info-label">Network</div>
+                  <div class="aetna-info-label">session memory</div>
                   <div class="aetna-info-value">
-                    22M+ members · 1.5M+ care professionals
+                    Context carries across turns — Cognee never forgets your
+                    conversation
                   </div>
                 </div>
               </div>
             </div>
             <div class="aetna-disclaimer">
-              Aetna DCPBs assist in administering plan benefits and do not
-              constitute dental advice.
+              Knowledge graph built from
               <a
                 href="https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/dental-clinical-policy-bulletins.html"
                 target="_blank"
                 rel="noopener"
                 class="aetna-link"
-                >View all DCPBs →</a
+                >Aetna DCPBs</a
               >
+              · Currently serving the
+              <a
+                href="https://www.aetna.com/content/dam/aetna/pdfs/aon/bronze-ppo.pdf"
+                target="_blank"
+                rel="noopener"
+                class="aetna-link"
+                >Bronze Benefit Plan</a
+              >
+              · DCPBs do not constitute dental advice
             </div>
           </div>
 
           <div class="hero-actions">
             <button class="btn-primary" onclick="openAuth('signup')">
-              Check my claim now →
+              Check My Claim →
             </button>
             <button class="btn-ghost" onclick="openAuth('login')">
               Sign in
@@ -285,43 +287,61 @@
       <section class="features">
         <div class="features-grid">
           <div class="feature-card">
-            <div class="feature-icon">🗺️</div>
-            <h3>Policy graph traversal</h3>
+            <div class="feature-icon">🕸️</div>
+            <h3>Cognee GraphRAG</h3>
             <p>
-              Navigates the entity relationships inside your insurance document
-              to surface exact clauses, exclusions, and limits.
+              Policy documents are structured into a hybrid graph-vector
+              knowledge store by Cognee. Answers are retrieved via deep graph
+              traversal — not keyword search.
             </p>
           </div>
           <div class="feature-card">
-            <div class="feature-icon">✅</div>
-            <h3>Claim verdict</h3>
+            <div class="feature-icon">🧠</div>
+            <h3>Never-forget sessions</h3>
             <p>
-              Returns a clear pass / review / deny result for any procedure code
-              — not a vague summary of policy text.
+              Powered by
+              <code
+                style="
+                  font-size: 0.8em;
+                  background: rgba(0, 194, 224, 0.1);
+                  padding: 1px 5px;
+                  border-radius: 4px;
+                "
+                >cognee.recall()</code
+              >
+              — your session context persists across logins. Ask follow-up
+              questions days later and Cognee remembers.
             </p>
           </div>
           <div class="feature-card">
-            <div class="feature-icon">⚡</div>
-            <h3>Session memory</h3>
+            <div class="feature-icon">🔍</div>
+            <h3>Policy node tracing</h3>
             <p>
-              Each conversation remembers your plan details. Ask follow-up
-              questions across multiple procedures in one session.
+              Every answer shows which knowledge graph nodes were traversed — so
+              you can see exactly which policy clauses drove the response.
             </p>
           </div>
           <div class="feature-card">
             <div class="feature-icon">📄</div>
-            <h3>PDF export</h3>
+            <h3>Export for pre-auth</h3>
             <p>
-              Download the full Q&amp;A thread as a formatted PDF to attach to
-              your pre-authorization request.
+              Download your full Q&amp;A session as a branded PDF — ready to
+              attach to your insurance pre-authorization request.
             </p>
           </div>
         </div>
       </section>
 
       <footer class="landing-footer">
-        © 2025 Cover-Clarity · AI-powered dental insurance intelligence · Not a
-        licensed insurance advisor
+        © 2026 Claim-Clarity · Built on Cognee Cloud ·
+        <a
+          href="https://www.wemakedevs.org/hackathons/cognee"
+          target="_blank"
+          rel="noopener"
+          style="color: var(--accent); text-decoration: none"
+          >WeMakeDevs × Cognee Hackathon</a
+        >
+        · Not a licensed insurance advisor
       </footer>
     </div>
 

@@ -1,6 +1,9 @@
 <div align="center">
 
-# <img src="app/assets/logo.png" width="108" alt="Cover-Clarity logo" /> Cover-Clarity
+<h2 align="center">
+  <img src="app/assets/logo.png" width="48" height="48" alt="Cover-Clarity logo" style="vertical-align: middle; margin-right: 10px;" />
+  Cover-Clarity
+</h2>
 
 **Your dental policy, now has memory.**
 

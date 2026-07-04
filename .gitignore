@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 dev.md
+app_old/
+app_old_2/
+
+.env

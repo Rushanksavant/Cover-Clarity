@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cover-clarity.onrender.com/favicon.ico" width="72" alt="Cover-Clarity logo" />
+<img src="app/assets/logo.png" width="72" alt="Cover-Clarity logo" />
 
 # Cover-Clarity
 

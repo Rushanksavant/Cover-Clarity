@@ -12,11 +12,11 @@ import bcrypt
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
-from app.db_utils import (
+from db_utils import (
     db_create_user, db_get_user, db_save_medical_history, db_get_medical_history,
     db_create_session, db_get_user_sessions, db_session_belongs_to_user,
 )
-from app.cognee_utils import (
+from cognee_utils import (
     is_session_valid, chat, get_chat_history,
     history_to_markdown, history_to_pdf_bytes,
 )
@@ -27,7 +27,7 @@ load_dotenv()
 
 app = FastAPI(title="GraphRAG Chat API")
 
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 app.add_middleware(
     CORSMiddleware,
@@ -199,7 +199,7 @@ async def get_medical_history(session_id: str, user: dict = Depends(get_current_
 
 @app.get("/")
 async def serve_frontend():
-    return FileResponse("./app/static/index.html")
+    return FileResponse("./static/index.html")
 
 
 if __name__ == "__main__":

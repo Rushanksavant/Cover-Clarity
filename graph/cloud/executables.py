@@ -1,3 +1,4 @@
+import os
 import asyncio
 import sys
 import diskcache
@@ -10,9 +11,9 @@ from schema import PatientMedicalHistory, MedicalCondition, Medication
 from dotenv import load_dotenv
 load_dotenv()
 
-# ROOT = os.getenv("./.cognee_data")
-PROCESSED = Path("data-collection/processed")
-DATASET   = "dental_insurance_kb_1"
+# PROCESSED = Path("data-collection/processed")
+PROCESSED = Path("data-collection/processed_new")
+DATASET   = os.environ["COGNEE_DATASET"]
 
 
 # class OverlappingChunker(TextChunkerWithOverlap):
@@ -98,7 +99,7 @@ async def chat_with_agent(query_text: str, session_id: str, medical_history: lis
     return response
 
 
-# STORAGE OPTIMIZATION: PURGE SPECIFIC SESSION DATA
+# STORAGE OPTIMIZATION: PURGE SPECIFIC SESSION DATA: Not used
 async def delete_session_history(session_id: str):
     """
     Evicts session memory from the remote cloud instance. 

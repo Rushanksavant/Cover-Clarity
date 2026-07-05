@@ -27,7 +27,7 @@ Even when insurers publish their policies publicly, the intersection of **medica
 
 ## Demo
 
-> 📹 **[Watch the full demo →](#)** _(add your video link here)_
+> 📹 **[Watch the full demo →](#)** _([https://www.youtube.com/watch?v=V6Mdb3zAY3g])_
 
 | Landing Page                                  | Chat Interface                                    |
 | --------------------------------------------- | ------------------------------------------------- |
